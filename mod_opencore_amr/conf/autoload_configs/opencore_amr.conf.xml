@@ -1,0 +1,10 @@
+<configuration name="mod_opencore_amr.conf" description="mod_opencore_amr configuration">
+  <settings name="default">
+    <!-- AMR mode set (see RFC 4867) -->
+    <param name="mode-set" value="0,1,2,3,4,5,6,7"/>
+    <!-- enable octet alignment -->
+    <param name="octet-align" value="false"/>
+    <!-- enable discontinuous transmission -->
+    <param name="dtx" value="false"/>
+  </settings>
+</configuration>
